@@ -12,3 +12,10 @@ long long factorial(int n)
 }
 
 int main()
+{ 
+    int result = factorial(1000);
+
+    printf("Result: %d", result);
+
+    return 0;
+}
